@@ -4,7 +4,10 @@ server:
 spring:
    application:
       name: CONFIG-SERVER
-      
+   boot:
+    admin:
+      client:
+        url: http://localhost:8081   
    cloud:
     config:
       server:

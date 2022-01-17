@@ -5,6 +5,10 @@ server:
 spring:
    application:
       name: API-GATEWAY
+   boot:
+    admin:
+      client:
+        url: http://localhost:8081
    cloud:
      gateway:
       routes:

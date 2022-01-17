@@ -1,10 +1,19 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
 server:
   port: 9002
-
 spring:
   application:
     name: USER-SERVICE
   zipkin:
-    base-url:http://127.0.0.1:9411/
-
- 
+    base-url: http://127.0.0.1:9411/
+  boot:
+    admin:
+      client:
+        url: http://localhost:8081
