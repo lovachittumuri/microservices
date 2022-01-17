@@ -6,5 +6,5 @@
 *.project
 *.factorypath
 *.original
-/spring-admin-server/target/maven-archiver/*.properties
 target/
+.settings/
