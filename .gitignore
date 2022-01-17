@@ -1,0 +1,10 @@
+*.classpath
+*.class
+*.prefs
+*.jar
+*.lst
+*.project
+*.factorypath
+*.original
+/spring-admin-server/target/maven-archiver/*.properties
+target/
